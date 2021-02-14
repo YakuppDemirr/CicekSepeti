@@ -13,11 +13,11 @@ public class SifreDegistir extends BasePage{
         jse.executeScript("window.scrollBy(0,250)");
         waitBySeconds(2);
         clickByXpath("//span[text()='Şifre Değiştir' and @class='account-menu__text']");
-        setById("OldPassword","Bjk.1903");
+        setById("OldPassword","");
         waitBySeconds(1);
-        setById("NewPassword","123456");
+        setById("NewPassword","");
         waitBySeconds(1);
-        setById("NewPasswordConfirm","123456");
+        setById("NewPasswordConfirm","");
         waitBySeconds(1);
         clickByXpath("//button[text()='Güncelle']");
 
