@@ -7,9 +7,9 @@ public class RegisterPage extends BasePage {
         super(driver);
         /*setById("NameIndivual","Yakup Demir");
         waitBySeconds(1);
-        setById("EmailIndivual","yakuppdemirr@hotmail.com");
+        setById("EmailIndivual","");
         waitBySeconds(1);
-        setById("PasswordIndivual","Bjk.1903");
+        setById("PasswordIndivual","");
         waitBySeconds(1);
         clickByXpath("//*[@id=\"newMemberFormIndividual\"]/div[9]/label/span");
         waitBySeconds(1);
